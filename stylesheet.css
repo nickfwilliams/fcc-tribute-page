@@ -15,14 +15,20 @@ a {
   color: blue;
 }
 
-#title {
-    text-align: center;
+a:visited {
+    color: purple;
 }
 
-h2 {
+#title {
+    text-align: center;
+    margin-bottom: -8px;
+}
+
+#subtitle {
     text-align: center;
     font-weight: 500;
     font-size: 1em;
+    font-style: italic;
 }
 
 #img-div {
@@ -37,11 +43,14 @@ h2 {
     max-width: 100%;
     height: auto;
     border: 1px solid black;
-    margin-bottom: 15px;
+    margin: 10px auto;
 }
 
 #img-caption {
     text-align: center;
+    font-size: 0.9em;
+    color: #000;
+    line-height: 1.3em;
 }
 
 #headline {
